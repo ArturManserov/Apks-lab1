@@ -82,7 +82,7 @@ if r.returncode == 0:
     report(any(p.exists() for p in exe), "виконуваний файл hello створено")
     r = run(["ctest", "--test-dir", "build", "--build-config", "Release", "--output-on-failure"])
     report(r.returncode == 0 and "100% tests passed" in r.stdout, "ctest: 100% tests passed")
-    report("Arithmetic.BasicAddition" in run(["ctest", "--test-dir", "build", "-N"]).stdout, "тест BasicAddition знайдено")
+    report("Arithmetic.BasicAddition" in run(["ctest", "--test-dir", "build", "-N", "--build-config", "Release"]).stdout, "тест BasicAddition знайдено")
 
 print()
 if failed:
