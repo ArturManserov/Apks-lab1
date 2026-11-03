@@ -1,11 +1,4 @@
-Репозиторій містить AI-агента `build-engineer` (manifest, 3 skills, 6 commands),
-який створює й перевіряє кросплатформний проєкт Hello World з CI для Windows, Linux і macOS.
 
-## Запуск агента
-1. Відкрити репозиторій у VS Code з GitHub Copilot (Agent mode).
-2. У Copilot Chat обрати агента **build-engineer**.
-3. Виконати команду `/init` (оркестратор). Окремі кроки: `/git-init`, `/create-project`,
-   `/create-build`, `/create-actions`, `/check`.
 
 ## Запуск проєкту
 - Linux/macOS: `./ci.sh`
