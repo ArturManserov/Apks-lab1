@@ -1,8 +1,3 @@
-# hello — AI-агент build-engineer (C++ / CMake / GoogleTest)
-
-- **Лабораторна робота №1**, дисципліна «Автоматизоване проєктування комп'ютерних систем»
-- **Виконав:** _ПІБ, група_ · **Варіант:** 13 (→ варіант 1: C++, CMake, GoogleTest)
-
 Репозиторій містить AI-агента `build-engineer` (manifest, 3 skills, 6 commands),
 який створює й перевіряє кросплатформний проєкт Hello World з CI для Windows, Linux і macOS.
 
